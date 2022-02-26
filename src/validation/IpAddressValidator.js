@@ -9,13 +9,8 @@ export function isValidIpAddress(string) {
     return false
   }
 
-  const parsedSegments = segments.map(segment => parseInt(segment, 10))
-
-  for (let s of parsedSegments) {
-    if (s < 0 || s > 255) {
-      return false
-    }
-  }
-
-  return true
+  return segments.every(segment => {
+    const segmentNumber = parseInt(segment, 10)
+    return segmentNumber >= 0 && segmentNumber <= 255
+  })
 }
