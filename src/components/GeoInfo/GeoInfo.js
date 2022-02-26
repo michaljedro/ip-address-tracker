@@ -1,14 +1,16 @@
 import React from 'react'
 import styles from './GeoInfo.module.css'
+import cx from 'classnames'
 
 const GeoInfo = ({
   ipAddress,
   location,
   timezone,
   isp,
+  className,
 }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={cx(styles.wrapper, className)}>
       <div className={styles.box}>
         <div className={styles.label}>IP Address</div>
         <div className={styles.value}>{ipAddress}</div>
