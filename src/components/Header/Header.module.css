@@ -1,0 +1,32 @@
+.wrapper {
+    background: linear-gradient(to top right, #473c98, #6086f3);
+    text-align: center;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.inputWrapper {
+    align-self: stretch;
+}
+
+.input {
+    margin: 0 auto;
+}
+
+.geoInfo {
+    margin-top: 24px;
+}
+
+@media (min-width: 375px) {
+    .getInfo {
+        margin-top: 48px;
+    }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    --height: 58px;
+    height: var(--height);
+    max-width: 556px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: flex;
+}
+
+.input {
+    border: none;
+    padding: 24px;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    flex-grow: 1;
+}
+
+.button {
+    border: none;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    width: var(--height);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
