@@ -22,7 +22,7 @@ const Map = () => {
   });
 
   return (
-    <div>
+    <div className={styles.mapWrapper}>
       <div ref={mapContainer} className={styles.mapContainer} />
     </div>
   );

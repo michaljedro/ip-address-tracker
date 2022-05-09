@@ -1,5 +1,6 @@
 .wrapper {
     background: linear-gradient(to top right, #473c98, #6086f3);
+    height: 40vh;
     text-align: center;
     padding: 24px;
     display: flex;
