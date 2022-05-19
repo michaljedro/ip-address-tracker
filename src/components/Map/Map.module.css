@@ -1,7 +1,3 @@
-.mapWrapper {
-  height: 40vh;
-  /* border: 2px solid red; */
-}
-.mapContainer {
+.map {
   height: 50vh;
 }
